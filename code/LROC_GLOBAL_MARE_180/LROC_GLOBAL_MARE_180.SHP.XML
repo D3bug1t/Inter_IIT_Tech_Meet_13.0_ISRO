@@ -1,0 +1,182 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Mark S. Robinson, PhD, LROC Science Operations Center, Arizona State University, Principal Investigator</origin>
+        <origin>Steven D. Koeber, LROC Science Operations Center, Arizona State University, Research Analyst</origin>
+        <pubdate>20130426</pubdate>
+        <title>LROC_Global_Mare</title>
+        <edition>v1.0</edition>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Polygon vector map of lunar mare. Three image basemaps were used as reference to generate the file. 1) A monochromatic (643nm) LROC WAC image mosaic, optimized for geomorphology, at a resolution of 100 meters/pixel. 2) A second LROC WAC-derived mosaic, generated from a ratio of bands 1 (321nm) and 3 (415nm), in order to isolate surface compositions high in titanium. 3) A Clementine UVVIS color ratio product (Red: 750nm/415nm, Green: 750nm/950nm, Blue: 415nm/750nm) resampled to 1 km/pixel that is used to distinguish between old highlands and younger mare materials. Polygons we digitized at a scale of 1:200,000 and 1:500,000.</abstract>
+      <purpose>Global mapping of lunar mare</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20110301</begdate>
+          <enddate>20130426</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Near-global coverage, limited to the equatorial region between 60N and 60S.</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-179.998342</westbc>
+        <eastbc>179.999832</eastbc>
+        <northbc>64.760968</northbc>
+        <southbc>-66.534360</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Moon</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Geology</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>mare</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>LRO</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>LROC</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>location</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>LROC Science Operations Center, Arizona State University</cntorg>
+          <cntper>Mark S. Robinson, PhD</cntper>
+        </cntorgp>
+        <cntpos>Professor</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Arizona State University, P.O. Box 873603</address>
+          <city>Tempe</city>
+          <state>AZ</state>
+          <postal>85287-3603</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntemail>lroc_pds@ser.asu.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Mark Robinson, Ph.D., Principal Investigator; LROC Science Operations Center, Arizona State University; Digitized by Steven D. Koeber, LROC Science Operations Center, Arizona State University</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.0.3035</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>644</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>3.2977886216808065e-008</latres>
+        <longres>3.2977886216808065e-008</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D Moon 2000</horizdn>
+        <ellips>Moon 2000 IAU IAG</ellips>
+        <semiaxis>1737400.0</semiaxis>
+        <denflat>0.0</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>LROC_Global_Mare</enttypl>
+        <enttypd>polygon shapefile</enttypd>
+        <enttypds>digitized from WAC basemap (643 nm)</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MARE_NAME</attrlabl>
+        <attrdef>The IAU name for the mare, lacus, or crater in which an individual mare is located.</attrdef>
+        <attrdefs>IAU names</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Perimtr_km</attrlabl>
+        <attrdef>Perimeter of the mare, measured in kilometers. Calculation was performed while map was in sinusoidal projection.</attrdef>
+        <attrdefs>Field calculation</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Area_km</attrlabl>
+        <attrdef>Area of the mare, measured in square kilometers. Calculation was performed while map was in sinusoidal projection.</attrdef>
+        <attrdefs>Geometry calculation</attrdefs>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20131211</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>LROC Science Operations Center, Arizona State University</cntorg>
+          <cntper>Mark S. Robinson, PhD</cntper>
+        </cntorgp>
+        <cntpos>Principal Investigator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Arizona State University, P.O. Box 873603</address>
+          <city>Tempe</city>
+          <state>AZ</state>
+          <postal>85287-3603</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntemail>lroc_pds@ser.asu.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
